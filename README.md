@@ -17,7 +17,7 @@ Sample projects and notes from the excellent Head First Design Patterns, Second 
 2. Favor composition over inheritance
 3. Program to an interface and not an implementation
 4. Open for extension, closed for modification
-5. Dependency Inversion: Depend on abstractions; do not depend on concrete classes
+5. Depend on abstractions; do not depend on concrete classes (Dependency Inversion)
 
 ## Patterns
 
