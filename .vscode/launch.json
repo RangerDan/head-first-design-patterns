@@ -1,0 +1,82 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Decorator - StarBuzz",
+            "type": "coreclr",
+            "request": "launch",
+            "preLaunchTask": "build-starbuzz",
+            "program": "${workspaceFolder}/src/decorator/StarBuzz/bin/Debug/net6.0/StarBuzz.dll",
+            "args": [],
+            "cwd": "${workspaceFolder}/src/decorator/StarBuzz",
+            "stopAtEntry": false,
+            "console": "internalConsole"
+        },
+        {
+            "name": "Factory - SimplePizzeria",
+            "type": "coreclr",
+            "request": "launch",
+            "preLaunchTask": "build-simplepizzeria",
+            "program": "${workspaceFolder}/src/factory/SimplePizzeria/bin/Debug/net6.0/SimplePizzeria.dll",
+            "args": [],
+            "cwd": "${workspaceFolder}/src/factory/SimplePizzeria",
+            "stopAtEntry": false,
+            "console": "internalConsole"
+        },
+        {
+            "name": "Factory - Pizzeria",
+            "type": "coreclr",
+            "request": "launch",
+            "preLaunchTask": "build-pizzeria",
+            "program": "${workspaceFolder}/src/factory/Pizzeria/bin/Debug/net6.0/Pizzeria.dll",
+            "args": [],
+            "cwd": "${workspaceFolder}/src/factory/Pizzeria",
+            "stopAtEntry": false,
+            "console": "internalConsole"
+        },
+        {
+            "name": "Factory - AbstractPizzeria",
+            "type": "coreclr",
+            "request": "launch",
+            "preLaunchTask": "build-abstractpizzeria",
+            "program": "${workspaceFolder}/src/factory/AbstractPizzeria/bin/Debug/net6.0/AbstractPizzeria.dll",
+            "args": [],
+            "cwd": "${workspaceFolder}/src/factory/AbstractPizzeria",
+            "stopAtEntry": false,
+            "console": "internalConsole"
+        },
+        {
+            "name": "Strategy - MiniDuckSimulator",
+            "type": "coreclr",
+            "request": "launch",
+            "preLaunchTask": "build-ducks",
+            "program": "${workspaceFolder}/src/strategy/MiniDuckSimulator/bin/Debug/net6.0/MiniDuckSimulator.dll",
+            "args": [],
+            "cwd": "${workspaceFolder}/src/strategy/MiniDuckSimulator",
+            "stopAtEntry": false,
+            "console": "internalConsole"
+        },
+        {
+            "name": "Observer - WeatherStation",
+            "type": "coreclr",
+            "request": "launch",
+            "preLaunchTask": "build-weather",
+            "program": "${workspaceFolder}/src/observer/WeatherStation/bin/Debug/net6.0/WeatherStation.dll",
+            "args": [],
+            "cwd": "${workspaceFolder}/src/observer/WeatherStation",
+            "stopAtEntry": false,
+            "console": "internalConsole"
+        },
+        {
+            "name": "Utilties",
+            "type": "coreclr",
+            "request": "launch",
+            "preLaunchTask": "build-utilities",
+            "program": "${workspaceFolder}/src/utilities/bin/Debug/net6.0/Utilities.dll",
+            "args": [],
+            "cwd": "${workspaceFolder}/src/utilities",
+            "stopAtEntry": false,
+            "console": "internalConsole"
+        }
+    ]
+}
