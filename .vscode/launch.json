@@ -46,6 +46,17 @@
             "console": "internalConsole"
         },
         {
+            "name": "Singleton - ChocoBoiler",
+            "type": "coreclr",
+            "request": "launch",
+            "preLaunchTask": "build-chocoboiler",
+            "program": "${workspaceFolder}/src/singleton/ChocoBoiler/bin/Debug/net6.0/ChocoBoiler.dll",
+            "args": [],
+            "cwd": "${workspaceFolder}/src/singleton/ChocoBoiler",
+            "stopAtEntry": false,
+            "console": "internalConsole"
+        },
+        {
             "name": "Strategy - MiniDuckSimulator",
             "type": "coreclr",
             "request": "launch",

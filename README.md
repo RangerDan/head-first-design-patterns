@@ -42,6 +42,11 @@ Sample projects and notes from the excellent Head First Design Patterns, Second 
   - Factory Method defines an interface for creating a _single_ object, but let subclasses decide what to instantiate. I.e.: the class defers instatiation to the subclasses.
   - Abstract Factory provides an interface for creating _families_ of objects without specifying their concrete classes.
 
+* [Singleton](./src/singleton/README.md)
+
+  - Ensure there is only ever one instance of a class
+  - Provide global access to it
+
 # Toolbox
 
 - You need [.NET 6](https://www.dot.net) to run these examples.

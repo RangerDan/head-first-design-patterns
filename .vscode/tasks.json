@@ -218,6 +218,42 @@
             "problemMatcher": "$msCompile"
         },
         {
+            "label": "build-chocoboiler",
+            "command": "dotnet",
+            "type": "process",
+            "args": [
+                "build",
+                "${workspaceFolder}/src/singleton/ChocoBoiler/ChocoBoiler.csproj",
+                "/property:GenerateFullPaths=true",
+                "/consoleloggerparameters:NoSummary"
+            ],
+            "problemMatcher": "$msCompile"
+        },
+        {
+            "label": "publish-chocoboiler",
+            "command": "dotnet",
+            "type": "process",
+            "args": [
+                "publish",
+                "${workspaceFolder}/src/singleton/ChocoBoiler/ChocoBoiler.csproj",
+                "/property:GenerateFullPaths=true",
+                "/consoleloggerparameters:NoSummary"
+            ],
+            "problemMatcher": "$msCompile"
+        },
+        {
+            "label": "watch-chocoboiler",
+            "command": "dotnet",
+            "type": "process",
+            "args": [
+                "watch",
+                "run",
+                "--project",
+                "${workspaceFolder}/src/singleton/ChocoBoiler/ChocoBoiler.csproj"
+            ],
+            "problemMatcher": "$msCompile"
+        },
+        {
             "label": "build-utilities",
             "command": "dotnet",
             "type": "process",
