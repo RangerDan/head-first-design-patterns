@@ -27,6 +27,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "singleton", "singleton", "{
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChocoBoiler", "src\singleton\ChocoBoiler\ChocoBoiler.csproj", "{108B1DAF-08FB-4775-8B13-341AEA89702C}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "command", "command", "{6A5DA4CF-7DCB-4800-9039-4E12455B3813}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RemoteControl", "src\command\RemoteControl\RemoteControl.csproj", "{2814CCE9-9EB5-4373-B9F2-DB0AF8C33EB3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -61,6 +65,10 @@ Global
 		{108B1DAF-08FB-4775-8B13-341AEA89702C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{108B1DAF-08FB-4775-8B13-341AEA89702C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{108B1DAF-08FB-4775-8B13-341AEA89702C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2814CCE9-9EB5-4373-B9F2-DB0AF8C33EB3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2814CCE9-9EB5-4373-B9F2-DB0AF8C33EB3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2814CCE9-9EB5-4373-B9F2-DB0AF8C33EB3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2814CCE9-9EB5-4373-B9F2-DB0AF8C33EB3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -76,6 +84,8 @@ Global
 		{A6F36869-C7A7-4386-98B3-9AD7077CCD78} = {5D703F0D-21F4-4607-8233-483648F73481}
 		{D67ADB8F-B057-4145-B50F-3CD1198292B1} = {7F023BCE-0B6C-43B6-8DCD-62027B70E746}
 		{108B1DAF-08FB-4775-8B13-341AEA89702C} = {D67ADB8F-B057-4145-B50F-3CD1198292B1}
+		{6A5DA4CF-7DCB-4800-9039-4E12455B3813} = {7F023BCE-0B6C-43B6-8DCD-62027B70E746}
+		{2814CCE9-9EB5-4373-B9F2-DB0AF8C33EB3} = {6A5DA4CF-7DCB-4800-9039-4E12455B3813}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {3915E78B-08A7-4035-9DA4-736FFDCC512A}

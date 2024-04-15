@@ -2,6 +2,17 @@
     "version": "0.2.0",
     "configurations": [
         {
+            "name": "Command - RemoteControl",
+            "type": "coreclr",
+            "request": "launch",
+            "preLaunchTask": "build-remotecontrol",
+            "program": "${workspaceFolder}/src/command/RemoteControl/bin/Debug/net6.0/RemoteControl.dll",
+            "args": [],
+            "cwd": "${workspaceFolder}/src/command/RemoteControl",
+            "stopAtEntry": false,
+            "console": "internalConsole"
+        },
+        {
             "name": "Decorator - StarBuzz",
             "type": "coreclr",
             "request": "launch",

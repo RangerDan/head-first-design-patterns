@@ -254,6 +254,42 @@
             "problemMatcher": "$msCompile"
         },
         {
+            "label": "build-remotecontrol",
+            "command": "dotnet",
+            "type": "process",
+            "args": [
+                "build",
+                "${workspaceFolder}/src/command/RemoteControl/RemoteControl.csproj",
+                "/property:GenerateFullPaths=true",
+                "/consoleloggerparameters:NoSummary"
+            ],
+            "problemMatcher": "$msCompile"
+        },
+        {
+            "label": "publish-remotecontrol",
+            "command": "dotnet",
+            "type": "process",
+            "args": [
+                "publish",
+                "${workspaceFolder}/src/command/RemoteControl/RemoteControl.csproj",
+                "/property:GenerateFullPaths=true",
+                "/consoleloggerparameters:NoSummary"
+            ],
+            "problemMatcher": "$msCompile"
+        },
+        {
+            "label": "watch-remotecontrol",
+            "command": "dotnet",
+            "type": "process",
+            "args": [
+                "watch",
+                "run",
+                "--project",
+                "${workspaceFolder}/src/command/RemoteControl/RemoteControl.csproj"
+            ],
+            "problemMatcher": "$msCompile"
+        },
+        {
             "label": "build-utilities",
             "command": "dotnet",
             "type": "process",

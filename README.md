@@ -16,8 +16,9 @@ Sample projects and notes from the excellent Head First Design Patterns, Second 
 1. Encapsulate what varies
 2. Favor composition over inheritance
 3. Program to an interface and not an implementation
-4. Open for extension, closed for modification
-5. Depend on abstractions; do not depend on concrete classes (Dependency Inversion)
+4. Strive for loosely-coupled designs between objects that interact
+5. Open for extension, closed for modification
+6. Depend on abstractions; do not depend on concrete classes (Dependency Inversion)
 
 ## Patterns
 
@@ -46,6 +47,10 @@ Sample projects and notes from the excellent Head First Design Patterns, Second 
 
   - Ensure there is only ever one instance of a class
   - Provide global access to it
+
+* [Command](./src/command/README.md)
+
+  - Encapsulates a request as an object to parameterize clients with different requests, queue or log requests, and support undo operations.
 
 # Toolbox
 
