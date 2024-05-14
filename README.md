@@ -19,8 +19,9 @@ Sample projects and notes from the excellent Head First Design Patterns, Second 
 4. Strive for loosely-coupled designs between objects that interact
 5. Open for extension, closed for modification
 6. Depend on abstractions; do not depend on concrete classes (Dependency Inversion)
+7. Talk only to your friends (Principle of Least Knowledge/Law of Demeter)
 
-## Patterns
+## Patterns (in chapter order)
 
 * [Strategy](./src/strategy/README.md)
 
@@ -50,7 +51,17 @@ Sample projects and notes from the excellent Head First Design Patterns, Second 
 
 * [Command](./src/command/README.md)
 
-  - Encapsulates a request as an object to parameterize clients with different requests, queue or log requests, and support undo operations.
+  Encapsulates a request as an object to parameterize clients with different requests, queue or log requests, and support undo operations.
+
+* [Adapter](./src/adapter/README.md)
+
+  - Converts one interface into another its clients expect.
+  - Allows otherwise incompatible classes to work together.
+
+* [Facade](./src/facade/README.md)
+
+  - Provides a unified interface to a set of interfaces in a subsystem.
+  - Defines a higher-level interface that makes the subsystem easier to use.
 
 # Toolbox
 

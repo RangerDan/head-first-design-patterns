@@ -2,6 +2,42 @@
     "version": "2.0.0",
     "tasks": [
         {
+            "label": "build-ducksandturkeys",
+            "command": "dotnet",
+            "type": "process",
+            "args": [
+                "build",
+                "${workspaceFolder}/src/adapter/DucksAndTurkeys/DucksAndTurkeys.csproj",
+                "/property:GenerateFullPaths=true",
+                "/consoleloggerparameters:NoSummary"
+            ],
+            "problemMatcher": "$msCompile"
+        },
+        {
+            "label": "publish-ducksandturkeys",
+            "command": "dotnet",
+            "type": "process",
+            "args": [
+                "publish",
+                "${workspaceFolder}/src/adapter/DucksAndTurkeys/DucksAndTurkeys.csproj",
+                "/property:GenerateFullPaths=true",
+                "/consoleloggerparameters:NoSummary"
+            ],
+            "problemMatcher": "$msCompile"
+        },
+        {
+            "label": "watch-ducksandturkeys",
+            "command": "dotnet",
+            "type": "process",
+            "args": [
+                "watch",
+                "run",
+                "--project",
+                "${workspaceFolder}/src/adapter/DucksAndTurkeys/DucksAndTurkeys.csproj"
+            ],
+            "problemMatcher": "$msCompile"
+        },
+        {
             "label": "build-ducks",
             "command": "dotnet",
             "type": "process",

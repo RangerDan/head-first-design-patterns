@@ -2,6 +2,17 @@
     "version": "0.2.0",
     "configurations": [
         {
+            "name": "Adapter - DucksAndTurkeys",
+            "type": "coreclr",
+            "request": "launch",
+            "preLaunchTask": "build-ducksandturkeys",
+            "program": "${workspaceFolder}/src/adapter/DucksAndTurkeys/bin/Debug/net6.0/DucksAndTurkeys.dll",
+            "args": [],
+            "cwd": "${workspaceFolder}/src/adapter/DucksAndTurkeys",
+            "stopAtEntry": false,
+            "console": "internalConsole"
+        },
+        {
             "name": "Command - RemoteControl",
             "type": "coreclr",
             "request": "launch",
