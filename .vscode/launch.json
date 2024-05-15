@@ -2,6 +2,17 @@
     "version": "0.2.0",
     "configurations": [
         {
+            "name": "Facade - ThemeController",
+            "type": "coreclr",
+            "request": "launch",
+            "preLaunchTask": "build-themecontroller",
+            "program": "${workspaceFolder}/src/facade/ThemeController/bin/Debug/net6.0/ThemeController.dll",
+            "args": [],
+            "cwd": "${workspaceFolder}/src/facade/ThemeController",
+            "stopAtEntry": false,
+            "console": "internalConsole"
+        },
+        {
             "name": "Adapter - DucksAndTurkeys",
             "type": "coreclr",
             "request": "launch",
