@@ -2,6 +2,42 @@
     "version": "2.0.0",
     "tasks": [
         {
+            "label": "build-boardgamelist",
+            "command": "dotnet",
+            "type": "process",
+            "args": [
+                "build",
+                "${workspaceFolder}/src/templatemethod/BoardGameList/BoardGameList.csproj",
+                "/property:GenerateFullPaths=true",
+                "/consoleloggerparameters:NoSummary"
+            ],
+            "problemMatcher": "$msCompile"
+        },
+        {
+            "label": "publish-boardgamelist",
+            "command": "dotnet",
+            "type": "process",
+            "args": [
+                "publish",
+                "${workspaceFolder}/src/templatemethod/BoardGameList/BoardGameList.csproj",
+                "/property:GenerateFullPaths=true",
+                "/consoleloggerparameters:NoSummary"
+            ],
+            "problemMatcher": "$msCompile"
+        },
+        {
+            "label": "watch-boardgamelist",
+            "command": "dotnet",
+            "type": "process",
+            "args": [
+                "watch",
+                "run",
+                "--project",
+                "${workspaceFolder}/src/templatemethod/BoardGameList/BoardGameList.csproj"
+            ],
+            "problemMatcher": "$msCompile"
+        },
+        {
             "label": "build-themecontroller",
             "command": "dotnet",
             "type": "process",

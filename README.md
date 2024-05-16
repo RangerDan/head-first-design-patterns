@@ -20,6 +20,7 @@ Sample projects and notes from the excellent Head First Design Patterns, Second 
 5. Open for extension, closed for modification
 6. Depend on abstractions; do not depend on concrete classes (Dependency Inversion)
 7. Talk only to your friends (Principle of Least Knowledge/Law of Demeter)
+8. Don't call us; we'll call you. (Hollywood Principle)
 
 ## Patterns (in chapter order)
 
@@ -62,6 +63,11 @@ Sample projects and notes from the excellent Head First Design Patterns, Second 
 
   - Provides a unified interface to a set of interfaces in a subsystem.
   - Defines a higher-level interface that makes the subsystem easier to use.
+
+* [Template Method](./src/templatemethod/README.md)
+
+  - Defines the skeleton of an algorithm in the superclass and relies on subclasses to implement the final part of it.
+  - Allows subclasses to redefine portions of an algorithm without changing the algorithm's structure.
 
 # Toolbox
 

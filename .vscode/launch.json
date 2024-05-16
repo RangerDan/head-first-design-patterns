@@ -2,17 +2,6 @@
     "version": "0.2.0",
     "configurations": [
         {
-            "name": "Facade - ThemeController",
-            "type": "coreclr",
-            "request": "launch",
-            "preLaunchTask": "build-themecontroller",
-            "program": "${workspaceFolder}/src/facade/ThemeController/bin/Debug/net6.0/ThemeController.dll",
-            "args": [],
-            "cwd": "${workspaceFolder}/src/facade/ThemeController",
-            "stopAtEntry": false,
-            "console": "internalConsole"
-        },
-        {
             "name": "Adapter - DucksAndTurkeys",
             "type": "coreclr",
             "request": "launch",
@@ -42,6 +31,17 @@
             "program": "${workspaceFolder}/src/decorator/StarBuzz/bin/Debug/net6.0/StarBuzz.dll",
             "args": [],
             "cwd": "${workspaceFolder}/src/decorator/StarBuzz",
+            "stopAtEntry": false,
+            "console": "internalConsole"
+        },
+        {
+            "name": "Facade - ThemeController",
+            "type": "coreclr",
+            "request": "launch",
+            "preLaunchTask": "build-themecontroller",
+            "program": "${workspaceFolder}/src/facade/ThemeController/bin/Debug/net6.0/ThemeController.dll",
+            "args": [],
+            "cwd": "${workspaceFolder}/src/facade/ThemeController",
             "stopAtEntry": false,
             "console": "internalConsole"
         },
@@ -79,6 +79,17 @@
             "console": "internalConsole"
         },
         {
+            "name": "Observer - WeatherStation",
+            "type": "coreclr",
+            "request": "launch",
+            "preLaunchTask": "build-weather",
+            "program": "${workspaceFolder}/src/observer/WeatherStation/bin/Debug/net6.0/WeatherStation.dll",
+            "args": [],
+            "cwd": "${workspaceFolder}/src/observer/WeatherStation",
+            "stopAtEntry": false,
+            "console": "internalConsole"
+        },
+        {
             "name": "Singleton - ChocoBoiler",
             "type": "coreclr",
             "request": "launch",
@@ -101,13 +112,13 @@
             "console": "internalConsole"
         },
         {
-            "name": "Observer - WeatherStation",
+            "name": "Template Method - BoardGameList",
             "type": "coreclr",
             "request": "launch",
-            "preLaunchTask": "build-weather",
-            "program": "${workspaceFolder}/src/observer/WeatherStation/bin/Debug/net6.0/WeatherStation.dll",
+            "preLaunchTask": "build-boardgamelist",
+            "program": "${workspaceFolder}/src/templatemethod/BoardGameList/bin/Debug/net6.0/BoardGameList.dll",
             "args": [],
-            "cwd": "${workspaceFolder}/src/observer/WeatherStation",
+            "cwd": "${workspaceFolder}/src/templatemethod/BoardGameList",
             "stopAtEntry": false,
             "console": "internalConsole"
         },

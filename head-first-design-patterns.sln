@@ -39,6 +39,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "facade", "facade", "{C05B81
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ThemeController", "src\facade\ThemeController\ThemeController.csproj", "{26A5C4D6-61B4-4754-8337-032EF18A97AA}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "templatemethod", "templatemethod", "{82FD6C17-047E-4B3C-970C-9EDA413F87F9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BoardGameList", "src\templatemethod\BoardGameList\BoardGameList.csproj", "{14CC728D-6587-4D77-A1C7-C596DFEBBDAB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -85,6 +89,10 @@ Global
 		{26A5C4D6-61B4-4754-8337-032EF18A97AA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{26A5C4D6-61B4-4754-8337-032EF18A97AA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{26A5C4D6-61B4-4754-8337-032EF18A97AA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{14CC728D-6587-4D77-A1C7-C596DFEBBDAB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{14CC728D-6587-4D77-A1C7-C596DFEBBDAB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{14CC728D-6587-4D77-A1C7-C596DFEBBDAB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{14CC728D-6587-4D77-A1C7-C596DFEBBDAB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -106,6 +114,8 @@ Global
 		{AD6024F2-CD6C-42DD-A9DC-A88D720AF55A} = {4A85FE19-972F-410F-AD4B-18C42E6F0B31}
 		{C05B817B-CC5C-422E-9805-DC8A22011EA4} = {7F023BCE-0B6C-43B6-8DCD-62027B70E746}
 		{26A5C4D6-61B4-4754-8337-032EF18A97AA} = {C05B817B-CC5C-422E-9805-DC8A22011EA4}
+		{82FD6C17-047E-4B3C-970C-9EDA413F87F9} = {7F023BCE-0B6C-43B6-8DCD-62027B70E746}
+		{14CC728D-6587-4D77-A1C7-C596DFEBBDAB} = {82FD6C17-047E-4B3C-970C-9EDA413F87F9}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {3915E78B-08A7-4035-9DA4-736FFDCC512A}
