@@ -21,6 +21,7 @@ Sample projects and notes from the excellent Head First Design Patterns, Second 
 6. Depend on abstractions; do not depend on concrete classes (Dependency Inversion)
 7. Talk only to your friends (Principle of Least Knowledge/Law of Demeter)
 8. Don't call us; we'll call you. (Hollywood Principle)
+9. A class should only have one reason to change.
 
 ## Patterns (in chapter order)
 
@@ -37,18 +38,18 @@ Sample projects and notes from the excellent Head First Design Patterns, Second 
 
 * [Decorator](./src/decorator/README.md)
 
-  - Attaches additional responsibilities to an object dynamically
-  - Provides a flexible alternative to subclassing for extending functionality
+  - Attaches additional responsibilities to an object dynamically.
+  - Provides a flexible alternative to subclassing for extending functionality.
 
-* [Factory](./src/factory/README.md)
+* [Factory Method](./src/factory/README.md)
 
   - Factory Method defines an interface for creating a _single_ object, but let subclasses decide what to instantiate. I.e.: the class defers instatiation to the subclasses.
   - Abstract Factory provides an interface for creating _families_ of objects without specifying their concrete classes.
 
 * [Singleton](./src/singleton/README.md)
 
-  - Ensure there is only ever one instance of a class
-  - Provide global access to it
+  - Ensure there is only ever one instance of a class.
+  - Provide global access to that instance.
 
 * [Command](./src/command/README.md)
 
@@ -68,6 +69,16 @@ Sample projects and notes from the excellent Head First Design Patterns, Second 
 
   - Defines the skeleton of an algorithm in the superclass and relies on subclasses to implement the final part of it.
   - Allows subclasses to redefine portions of an algorithm without changing the algorithm's structure.
+
+* [Iterator](./src/iterator/README.md)
+
+  - Provides a way to access the elements of an aggregate object sequentially.
+  - Does not expose the underlying implementation.
+
+* [Composite](./src/composite/README.md)
+
+  - Allows you to composite objects into tree-like structures to represent part/whole hierarchies.
+  - Clients can treat individual and composite components uniformly.
 
 # Toolbox
 

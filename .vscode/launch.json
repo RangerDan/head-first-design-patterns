@@ -24,6 +24,17 @@
             "console": "internalConsole"
         },
         {
+            "name": "Composite - ArmyList",
+            "type": "coreclr",
+            "request": "launch",
+            "preLaunchTask": "build-armylist",
+            "program": "${workspaceFolder}/src/composite/ArmyList/bin/Debug/net6.0/ArmyList.dll",
+            "args": [],
+            "cwd": "${workspaceFolder}/src/composite/ArmyList",
+            "stopAtEntry": false,
+            "console": "internalConsole"
+        },
+        {
             "name": "Decorator - StarBuzz",
             "type": "coreclr",
             "request": "launch",
@@ -75,6 +86,17 @@
             "program": "${workspaceFolder}/src/factory/AbstractPizzeria/bin/Debug/net6.0/AbstractPizzeria.dll",
             "args": [],
             "cwd": "${workspaceFolder}/src/factory/AbstractPizzeria",
+            "stopAtEntry": false,
+            "console": "internalConsole"
+        },
+        {
+            "name": "Iterator - Flavortown",
+            "type": "coreclr",
+            "request": "launch",
+            "preLaunchTask": "build-flavortown",
+            "program": "${workspaceFolder}/src/iterator/Flavortown/bin/Debug/net6.0/Flavortown.dll",
+            "args": [],
+            "cwd": "${workspaceFolder}/src/iterator/Flavortown",
             "stopAtEntry": false,
             "console": "internalConsole"
         },
